@@ -38,6 +38,6 @@ npm link
 
 ```
 cd ..
-mkdir myproject
+mkdir myproject && cd $_
 yo railsbox
 ```
