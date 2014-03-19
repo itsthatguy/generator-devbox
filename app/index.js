@@ -30,6 +30,7 @@ var RailsboxGenerator = yeoman.generators.Base.extend({
   },
 
   app: function () {
+    this.mkdir('app');
     this.copy('Cheffile', 'Cheffile');
     this.template('_Vagrantfile', 'Vagrantfile');
     this.template('_README.md', 'README.md');
