@@ -6,13 +6,18 @@
 vagrant up
 ```
 
-## Navigating to project folder
+## Navigating to **local** project folder
+
+```
+cd app
+```
+
+## Navigating to project folder **on the vagrant box**
 
 ```
 vagrant ssh
 cd railsbox
 ```
-
 
 ### Example: Setting up & running rails
 
