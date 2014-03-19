@@ -20,7 +20,7 @@ npm install -g yo
 ### Clone this repo
 
 ```
-git clone git@github.com:adorableio/generator-railsbox.git
+git clone git@github.com:itsthatguy/generator-railsbox.git
 ```
 
 ### Link it!
