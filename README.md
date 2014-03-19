@@ -2,6 +2,8 @@
 
 ## Getting Started
 
+### Install node
+- http://nodejs.org/download/
 
 ### Install yeoman
 
