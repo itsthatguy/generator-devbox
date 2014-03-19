@@ -2,12 +2,18 @@
 
 ## Getting Started
 
-### Install node
-- http://nodejs.org/download/
+### Download & install stuff
 
-### Install yeoman
+- Node: http://nodejs.org/download/
+- Virtualbox: https://www.virtualbox.org/wiki/Downloads
+- Vagrant: https://docs.vagrantup.com/v2/installation/
+
+
+
+### Install additional stuff
 
 ```
+vagrant plugin install vagrant-librarian-chef
 npm install -g yo
 ```
 
