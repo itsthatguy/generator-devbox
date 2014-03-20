@@ -4,7 +4,7 @@
 
 With just a few simple commands you can have a fully provisioned ubuntu virtualbox installed with Ruby, rbenv Rails, Nodejs, MySQL and Postgres.
 
-Something go terribly terrible wrong on the virtualbox that you can't figure out? No problem, delete the box and start all over, your projects will remain fully intact.
+Something go terribly terribly wrong on the virtualbox that you can't figure out? No problem, delete the box and start all over, your projects will remain fully intact.
 
 
 ## Getting Started
