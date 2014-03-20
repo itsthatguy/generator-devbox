@@ -5,7 +5,7 @@ var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
 
 
-var RailsboxGenerator = yeoman.generators.Base.extend({
+var DevboxGenerator = yeoman.generators.Base.extend({
   init: function() { },
 
   askFor: function() {
@@ -39,7 +39,7 @@ var RailsboxGenerator = yeoman.generators.Base.extend({
                                         \\~\\   \n\
                                          ~~   \n"));
     // replace it with a short and sweet description of your generator
-    this.log("       " + chalk.bold.black.bgYellow('  You\'re using the fantastic Railsbox generator.  '));
+    this.log("       " + chalk.bold.black.bgYellow('  You\'re using the fantastic Devbox generator.  '));
     this.log("\n");
 
     done();
@@ -62,4 +62,4 @@ var RailsboxGenerator = yeoman.generators.Base.extend({
   }
 });
 
-module.exports = RailsboxGenerator;
+module.exports = DevboxGenerator;

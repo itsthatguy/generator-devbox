@@ -1,4 +1,4 @@
-# generator-railsbox
+# generator-devbox
 
 ## What is it?
 
@@ -30,7 +30,7 @@ npm install -g yo
 ### Clone this repo
 
 ```
-git clone git@github.com:itsthatguy/generator-railsbox.git
+git clone git@github.com:itsthatguy/generator-devbox.git
 ```
 
 ### Link it!
@@ -38,18 +38,18 @@ git clone git@github.com:itsthatguy/generator-railsbox.git
 We need to be able to use the generator, so make sure you link it
 
 ```
-cd generator-railsbox
+cd generator-devbox
 npm link
 ```
 
 
 ## Using the generator
-*NOTE: I'm assuming you are still in the generator-railsbox directory right now.*
+*NOTE: I'm assuming you are still in the generator-devbox directory right now.*
 
 ```
 cd ..
 mkdir myproject && cd $_
-yo railsbox
+yo devbox
 ```
 
 
