@@ -6,41 +6,57 @@ var chalk = require('chalk');
 
 
 var RailsboxGenerator = yeoman.generators.Base.extend({
-  init: function () {
-    this.pkg = require('../package.json');
+  init: function() { },
 
-    this.on('end', function () {
-      if (!this.options['skip-install']) {
-        this.installDependencies();
-      }
-    });
-  },
-
-  askFor: function () {
+  askFor: function() {
     var done = this.async();
 
-    // have Yeoman greet the user
-    this.log(this.yeoman);
-
+    this.log(chalk.yellow(" \
+                                   ,|       \n\
+                                 //|                              ,|  \n\
+                               //,/                             -~ |  \n\
+                             // / |                         _-~   /  ,  \n\
+                           /'/ / /                       _-~   _/_-~ |  \n\
+                          ( ( / /'                   _ -~     _-~ ,/'  \n\
+                           \\~\\/'/|             __--~~__--\\ _-~  _/,  \n\
+                   ,,)))))));, \\/~-_     __--~~  --~~  __/~  _-~ /  \n\
+                __))))))))))))));,>/\\   /        __--~~  \\-~~ _-~  \n\
+               -\\(((((''''(((((((( >~\\/     --~~   __--~' _-~ ~|  \n\
+      --==//////((''  .     `)))))), /     ___---~~  ~~\\~~__--~   \n\
+              ))| @    ;-.     (((((/           __--~~~'~~/  \n\
+              ( `|    /  )      )))/      ~~~~~__\\__---~~__--~~--_  \n\
+                 |   |   |       (/      ---~~~/__-----~~  ,;::'  \\         ,  \n\
+                 o_);   ;        /      ----~~/           \\,-~~~\\  |       /|  \n\
+                       ;        (      ---~~/         `:::|      |;|      < >  \n\
+                      |   _      `----~~~~'      /      `:|       \\;\\_____//   \n\
+                ______/\\/~    |                 /        /         ~------~  \n\
+              /~;;.____/;;'  /          ___----(   `;;;/                 \n\
+             / //  _;______;'------~~~~~    |;;/\\    /            \n\
+            //  | |                        /  |  \\;;,\\                \n\
+           (<_  | ;                      /',/-----'  _>  \n\
+            \\_| ||_                     //~;~~~~~~~~~   \n\
+                `\\_|                   (,~~   \n\
+                                        \\~\\   \n\
+                                         ~~   \n"));
     // replace it with a short and sweet description of your generator
-    this.log(chalk.magenta('You\'re using the fantastic Railsbox generator.'));
+    this.log("       " + chalk.bold.black.bgYellow('  You\'re using the fantastic Railsbox generator.  '));
+    this.log("\n");
 
     done();
 
   },
 
-  app: function () {
-    this.mkdir('app');
+  app: function() {
+    this.mkdir('apps');
     this.copy('Cheffile', 'Cheffile');
     this.template('_Vagrantfile', 'Vagrantfile');
     this.template('_README.md', 'README.md');
 
-    this.copy('_package.json', 'package.json');
-    this.copy('_bower.json', 'bower.json');
+    this.directory('chef', 'chef');
 
   },
 
-  projectfiles: function () {
+  projectfiles: function() {
     this.copy('editorconfig', '.editorconfig');
     this.copy('jshintrc', '.jshintrc');
   }
