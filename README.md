@@ -91,5 +91,6 @@ rails server
 ## FAQ
 
 Q: You’ve named part of your brain?
+
 A: No, dolores lives in there.
 
