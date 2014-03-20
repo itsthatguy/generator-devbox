@@ -42,3 +42,35 @@ cd ..
 mkdir myproject && cd $_
 yo railsbox
 ```
+
+
+## Running & Provisioning
+
+```
+vagrant up
+```
+
+## Where are my files?
+
+### **Locally**
+
+```
+cd apps
+```
+
+## **On the Vagrant box**
+
+```
+vagrant ssh
+cd railsbox
+```
+
+### Example Setup: Setting up & running rails
+
+```
+vagrant ssh
+cd railsbox
+sudo rails new .
+rails server
+```
+
