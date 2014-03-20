@@ -35,7 +35,7 @@ git clone git@github.com:itsthatguy/generator-devbox.git
 
 ### Link it!
 
-We need to be able to use the generator, so make sure you link it
+We need to be able to use the generator, so make sure you use the following commands to link it
 
 ```
 cd generator-devbox
