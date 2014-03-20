@@ -69,8 +69,9 @@ cd apps
 
 ```
 vagrant ssh
-cd railsbox
-sudo rails new .
+cd apps
+sudo rails new myproject
+cd myproject
 rails server
 ```
 
