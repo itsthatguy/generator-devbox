@@ -14,6 +14,7 @@
 
 ```
 vagrant plugin install vagrant-librarian-chef
+vagrant plugin install vagrant-omnibus
 npm install -g yo
 ```
 
