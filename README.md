@@ -62,7 +62,7 @@ cd apps
 
 ```
 vagrant ssh
-cd railsbox
+cd apps
 ```
 
 ### Example Setup: Setting up & running rails
