@@ -90,7 +90,12 @@ rails server
 
 ## FAQ
 
-Q: You’ve named part of your brain?
+#### You’ve named part of your brain?
+No, Dolores lives in there.
 
-A: No, Dolores lives in there.
+#### How did you get a picture of Dolores?
+Let's talk about something else.
+
+
+
 
