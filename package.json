@@ -1,10 +1,10 @@
 {
-  "name": "generator-railsbox",
+  "name": "generator-devbox",
   "version": "0.0.0",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "itsthatguy/generator-railsbox",
+  "repository": "itsthatguy/generator-devbox",
   "author": {
     "name": "Kevin Altman",
     "email": "kevin@itsthatguy.com",

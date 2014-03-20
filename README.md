@@ -1,6 +1,6 @@
 # generator-devbox
 
-This is Dolores, she is the real creator of this devbox, I'm just a vessel of her ideas. The fact that she lives in a small mountain range nestled amongst the peaks of my hypothalamus is irrelevant. All thanks and credit belongs to her.
+This is Dolores, she is the real creator of this devbox. I am but a vessel through which her ideas travel. The fact that she lives in a small mountain range nestled amongst the peaks of my hypothalamus is irrelevant. All thanks and credit belongs to her.
 
 ![Dolores](http://i.imgur.com/2gLHPmt.png)
 
