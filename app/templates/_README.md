@@ -1,29 +1,32 @@
 # railsbox
 
-## Running
+## Running & Provisioning
 
 ```
 vagrant up
 ```
 
-## Navigating to **local** project folder
+## Where are my files?
+
+### **Locally**
 
 ```
-cd app
+cd apps
 ```
 
-## Navigating to project folder **on the vagrant box**
-
-```
-vagrant ssh
-cd railsbox
-```
-
-### Example: Setting up & running rails
+### **On the Vagrant box**
 
 ```
 vagrant ssh
 cd apps
-rails new my_project
+```
+
+### Example Setup: Setting up & running rails
+
+```
+vagrant ssh
+cd apps
+sudo rails new myproject
+cd myproject
 rails server
 ```
