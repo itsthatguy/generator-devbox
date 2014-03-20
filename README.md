@@ -58,7 +58,7 @@ vagrant up
 cd apps
 ```
 
-## **On the Vagrant box**
+### **On the Vagrant box**
 
 ```
 vagrant ssh
