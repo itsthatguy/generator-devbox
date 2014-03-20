@@ -4,7 +4,7 @@
 
 With just a few simple commands you can have a fully provisioned ubuntu virtualbox installed with Ruby, rbenv Rails, Nodejs, MySQL and Postgres. Built specifically to run on all your OSesssess -- Windows, Mac, Linux, no problem!
 
-![](http://ih3.redbubble.net/work.4707910.1.sticker,375x360.no-problem-v1.png)
+![](http://media.tumblr.com/tumblr_lqgzi9z8QB1qkzq2g.gif)
 
 Something go terribly terribly wrong on the virtualbox that you can't figure out? No problem, delete the box and start all over, your projects will remain fully intact.
 
