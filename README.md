@@ -92,5 +92,5 @@ rails server
 
 Q: You’ve named part of your brain?
 
-A: No, dolores lives in there.
+A: No, Dolores lives in there.
 
