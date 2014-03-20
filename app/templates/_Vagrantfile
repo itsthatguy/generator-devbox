@@ -13,7 +13,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.omnibus.chef_version = :latest
 
-  config.vm.hostname = "railsbox"
+  config.vm.hostname = "devbox"
   config.vm.network :forwarded_port, guest: 3000, host: 3000
   config.vm.network :private_network, ip: "192.168.33.10"
 
@@ -26,7 +26,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     # Use VBoxManage to customize the VM. For example, to change memory and
     # allow symlinks to be created in the shared folder:
     vb.customize ["modifyvm", :id, "--memory", "1024"]
-    vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/railsbox", "1"]
+    vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/devbox", "1"]
   end
 
   config.vm.provision :chef_solo do |chef|
