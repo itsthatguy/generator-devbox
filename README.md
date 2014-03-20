@@ -1,10 +1,13 @@
 # generator-devbox
 
+This is Dolores, she is the real creator of this devbox, I'm just a vessel of her ideas. The fact that she lives in a small mountain range nestled amongst the peaks of my hypothalamus is irrelevant. All thanks and credit belongs to her.
+
+![Dolores](http://i.imgur.com/2gLHPmt.png)
+
+
 ## What is it?
 
 With just a few simple commands you can have a fully provisioned ubuntu virtualbox installed with Ruby, rbenv Rails, Nodejs, MySQL and Postgres. Built specifically to run on all your OSesssess -- Windows, Mac, Linux, no problem!
-
-![](http://media.tumblr.com/tumblr_lqgzi9z8QB1qkzq2g.gif)
 
 Something go terribly terribly wrong on the virtualbox that you can't figure out? No problem, delete the box and start all over, your projects will remain fully intact.
 
