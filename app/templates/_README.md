@@ -1,4 +1,4 @@
-# railsbox
+# Devbox
 
 ## Running & Provisioning
 
@@ -21,7 +21,7 @@ vagrant ssh
 cd apps
 ```
 
-### Example Setup: Setting up & running rails
+### Example: Setting up & running your first rails project
 
 ```
 vagrant ssh
